@@ -1328,6 +1328,9 @@ sl:
       following: Uvažanje sledenih računov
       muting: Uvažanje utišanih računov
     type: Vrsta uvoza
+    type_groups:
+      constructive: Sledenje in zaznamki
+      destructive: Blokiranja in utišanja
     types:
       blocking: Seznam blokiranih
       bookmarks: Zaznamki
@@ -1375,6 +1378,8 @@ sl:
     title: Zgodovina overjanja
   mail_subscriptions:
     unsubscribe:
+      action: Da, odjavi me
+      complete: Odjavljeni
       title: Odjavi od naročnine
   media_attachments:
     validations:

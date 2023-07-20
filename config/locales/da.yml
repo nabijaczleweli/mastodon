@@ -1355,12 +1355,12 @@ da:
       confirmation_html: Er du sikker på, at du vil afmelde dig fra at modtage %{type} for Mastodon på %{domain} til din e-mail på %{email}? Du kan altid gentilmelde dig dine <a href="%{settings_path}">e-mail-notifikationsindstillinger</a>.
       emails:
         notification_emails:
-          favourite: favorit notifikations e-mails
-          follow: favorit notifikations e-mails
-          follow_request: følg anmodning e-mails
-          mention: favorit notifikations e-mails
-          reblog: favorit notifikations e-mails
-      resubscribe_html: Hvis du ved en fejl har afmeldt dig, kan du gentilmelde dig dine <a href="%{settings_path}">e-mail-notifikationsindstillinger</a>.
+          favourite: e-mailnotifikationer om favoritmarkeringer
+          follow: e-mailnotifikationer om nye følgere
+          follow_request: e-mailnotifikationer om følgeanmodninger
+          mention: e-mailnotifikationer om omtaler
+          reblog: e-mailnotifikationer om boosts
+      resubscribe_html: Hvis du har afmeldt dig ved en fejl, kan du gentilmelde dig under dine <a href="%{settings_path}">e-mail-notifikationsindstillinger</a>.
       success_html: Du vil ikke længere modtage %{type} for Mastodon på %{domain} til din e-mail på %{email}.
       title: Opsig abonnement
   media_attachments:
@@ -1459,7 +1459,7 @@ da:
     code_hint: Angiv koden genereret af godkendelses-appen for at bekræfte
     description_html: Aktiveres <strong>tofaktorgodkendelse</strong> vha. af en godkendelses-app, vil man skulle benytte sin mobil, der genererer det token, der skal angives ved indlogning.
     enable: Aktivér
-    instructions_html: "<strong>Skan denne QR-kode i Google Autehnticator eller en lign. TOTP-app på mobilen</strong>. Fremadrettet vil appen generere de tokens, som vil skulle angives ifm. indlogning."
+    instructions_html: "<strong>Skan denne QR-kode i Google Authenticator eller en lign. TOTP-app på mobilen</strong>. Fremadrettet vil appen generere de tokens, som vil skulle angives ifm. indlogning."
     manual_instructions: 'Kan QR-koden ikke skannes, så man er nødt til manuelt at angive den, er her en simplel tekst-hemmelighed:'
     setup: Opsæt
     wrong_code: Den angivne kode er ugyldig! Er server- og enhedsklokkeslæt korrekte?
@@ -1618,7 +1618,7 @@ da:
     open_in_web: Åbn i webbrowser
     over_character_limit: grænsen på %{max} tegn overskredet
     pin_errors:
-      direct: Indlæg, som kun kan ses af nævnte brugere, kan ikke fastgøres
+      direct: Indlæg, som kun kan ses af omtalte brugere, kan ikke fastgøres
       limit: Maksimalt antal indlæg allerede fastgjort
       ownership: Andres indlæg kan ikke fastgøres
       reblog: Et boost kan ikke fastgøres
